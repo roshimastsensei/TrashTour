@@ -1,10 +1,8 @@
 const fetch = require('node-fetch');
 
-const API_KEY = process.env.CG_DEMO_KEY_RS_LOG;
 
 const HEADERS = {
-  'User-Agent': 'Mozilla/5.0 (compatible; RS-Bot/1.0; +https://relative-strength.vercel.app)',
-  'x-cg-demo-api-key': API_KEY
+  'User-Agent': 'Mozilla/5.0 (compatible; RS-Bot/1.0; +https://relative-strength.vercel.app)'
 };
 
 function delay(ms) {
